@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "dashboard": ["./src/dashboard"],
+      "assets": ["./src/assets"],
+      "routes":["./src/routes"],
+      "helpers":["./src/helpers"]
+    },
+    "jsx": "react-native"
+  }
+}
